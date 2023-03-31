@@ -25,9 +25,9 @@ class Point {
 }
 
 enum WaveColors {
-  Violet = '#e000cf',
-  Pink = '#ff4092',
-  Grey = '#8b98a9'
+  Violet = '#362FD9',
+  Pink = '#85CDFD',
+  Grey = '#DEFCF9'
 }
 
 export class SvgWaves {
@@ -57,7 +57,7 @@ export class SvgWaves {
       viewBox: '0 0 99 99',
       color: WaveColors.Pink,
       fill: true,
-      layerCount: 4,
+      layerCount: 5,
       pointsPerLayer: randomIntFromInterval(3, 4),
       variance: Math.random() * 0.2 + 0.5, // 0.5 - 0.7
       maxOpacity: 255, // 0xff

@@ -30,13 +30,13 @@ export default function MetadataFields(): ReactElement {
   const assetTypeOptions: BoxSelectionOption[] = [
     {
       name: assetTypeOptionsTitles[0].toLowerCase(),
-      title: assetTypeOptionsTitles[0],
+      title: 'Smart Application', // assetTypeOptionsTitles[0],
       checked: values.metadata.type === assetTypeOptionsTitles[0].toLowerCase(),
       icon: <IconDataset />
     },
     {
       name: assetTypeOptionsTitles[1].toLowerCase(),
-      title: assetTypeOptionsTitles[1],
+      title: 'Smart Security', // assetTypeOptionsTitles[1],
       checked: values.metadata.type === assetTypeOptionsTitles[1].toLowerCase(),
       icon: <IconAlgorithm />
     }
