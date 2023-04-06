@@ -48,7 +48,7 @@ Prerequisites:
 To start local development:
 
 ```bash
-git clone git@github.com:oceanprotocol/market.git
+git clone <this project>
 cd market
 
 # when using nvm to manage Node.js versions
